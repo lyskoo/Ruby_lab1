@@ -6,4 +6,5 @@ source "https://rubygems.org"
 gem 'nokogiri'
 gem 'httparty'
 gem 'rubocop', require: false
-
+gem 'faker'
+gem 'mechanize'
