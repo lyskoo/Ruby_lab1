@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require 'yaml'
 require 'erb'
 
-module MyApplicationLysko
+module MyApplicationLyskoLevitskii
   class AppConfigLoader
     def self.load_config
       YAML.load(ERB.new(File.read(File.join(File.dirname(__FILE__), '../config/default_config.yaml'))).result)

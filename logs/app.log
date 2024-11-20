@@ -21,3 +21,215 @@ I, [2024-11-19T23:15:55.237258 #1968]  INFO -- : Initialized Item: #<Item name: 
 I, [2024-11-19T23:15:55.238360 #1968]  INFO -- : Initialized Item: #<Item name: Libertarianism for Beginners, price: £51.33>
 I, [2024-11-19T23:15:55.239327 #1968]  INFO -- : Initialized Item: #<Item name: It's Only the Himalayas, price: £45.17>
 I, [2024-11-19T23:15:55.239586 #1968]  INFO -- : Finished parsing. Found 20 items.
+I, [2024-11-20T11:45:56.832103 #15272]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T11:45:56.834588 #15272]  INFO -- : Parsing page: http://books.toscrape.com/
+I, [2024-11-20T11:45:57.569773 #15272]  INFO -- : Initialized Item: #<Item name: A Light in the Attic, price: £51.77>
+I, [2024-11-20T11:45:57.571185 #15272]  INFO -- : Initialized Item: #<Item name: Tipping the Velvet, price: £53.74>
+I, [2024-11-20T11:45:57.571995 #15272]  INFO -- : Initialized Item: #<Item name: Soumission, price: £50.10>
+I, [2024-11-20T11:45:57.572777 #15272]  INFO -- : Initialized Item: #<Item name: Sharp Objects, price: £47.82>
+I, [2024-11-20T11:45:57.573676 #15272]  INFO -- : Initialized Item: #<Item name: Sapiens: A Brief History of Humankind, price: £54.23>
+I, [2024-11-20T11:45:57.574432 #15272]  INFO -- : Initialized Item: #<Item name: The Requiem Red, price: £22.65>
+I, [2024-11-20T11:45:57.575196 #15272]  INFO -- : Initialized Item: #<Item name: The Dirty Little Secrets of Getting Your Dream Job, price: £33.34>
+I, [2024-11-20T11:45:57.576731 #15272]  INFO -- : Initialized Item: #<Item name: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, price: £17.93>
+I, [2024-11-20T11:45:57.578293 #15272]  INFO -- : Initialized Item: #<Item name: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, price: £22.60>
+I, [2024-11-20T11:45:57.586367 #15272]  INFO -- : Initialized Item: #<Item name: The Black Maria, price: £52.15>
+I, [2024-11-20T11:45:57.587840 #15272]  INFO -- : Initialized Item: #<Item name: Starving Hearts (Triangular Trade Trilogy, #1), price: £13.99>
+I, [2024-11-20T11:45:57.589268 #15272]  INFO -- : Initialized Item: #<Item name: Shakespeare's Sonnets, price: £20.66>
+I, [2024-11-20T11:45:57.590330 #15272]  INFO -- : Initialized Item: #<Item name: Set Me Free, price: £17.46>
+I, [2024-11-20T11:45:57.591064 #15272]  INFO -- : Initialized Item: #<Item name: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), price: £52.29>
+I, [2024-11-20T11:45:57.591843 #15272]  INFO -- : Initialized Item: #<Item name: Rip it Up and Start Again, price: £35.02>
+I, [2024-11-20T11:45:57.592642 #15272]  INFO -- : Initialized Item: #<Item name: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, price: £57.25>
+I, [2024-11-20T11:45:57.593469 #15272]  INFO -- : Initialized Item: #<Item name: Olio, price: £23.88>
+I, [2024-11-20T11:45:57.594620 #15272]  INFO -- : Initialized Item: #<Item name: Mesaerion: The Best Science Fiction Stories 1800-1849, price: £37.59>
+I, [2024-11-20T11:45:57.596026 #15272]  INFO -- : Initialized Item: #<Item name: Libertarianism for Beginners, price: £51.33>
+I, [2024-11-20T11:45:57.596745 #15272]  INFO -- : Initialized Item: #<Item name: It's Only the Himalayas, price: £45.17>
+I, [2024-11-20T11:45:57.597077 #15272]  INFO -- : Finished parsing. Found 20 items.
+I, [2024-11-20T11:50:50.858942 #15272]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T11:50:50.860986 #15272]  INFO -- : Parsing page: http://books.toscrape.com/
+I, [2024-11-20T11:50:51.495180 #15272]  INFO -- : Initialized Item: #<Item name: A Light in the Attic, price: £51.77>
+I, [2024-11-20T11:50:51.496820 #15272]  INFO -- : Initialized Item: #<Item name: Tipping the Velvet, price: £53.74>
+I, [2024-11-20T11:50:51.498326 #15272]  INFO -- : Initialized Item: #<Item name: Soumission, price: £50.10>
+I, [2024-11-20T11:50:51.499899 #15272]  INFO -- : Initialized Item: #<Item name: Sharp Objects, price: £47.82>
+I, [2024-11-20T11:50:51.501492 #15272]  INFO -- : Initialized Item: #<Item name: Sapiens: A Brief History of Humankind, price: £54.23>
+I, [2024-11-20T11:50:51.502856 #15272]  INFO -- : Initialized Item: #<Item name: The Requiem Red, price: £22.65>
+I, [2024-11-20T11:50:51.504236 #15272]  INFO -- : Initialized Item: #<Item name: The Dirty Little Secrets of Getting Your Dream Job, price: £33.34>
+I, [2024-11-20T11:50:51.505637 #15272]  INFO -- : Initialized Item: #<Item name: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, price: £17.93>
+I, [2024-11-20T11:50:51.507539 #15272]  INFO -- : Initialized Item: #<Item name: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, price: £22.60>
+I, [2024-11-20T11:50:51.509015 #15272]  INFO -- : Initialized Item: #<Item name: The Black Maria, price: £52.15>
+I, [2024-11-20T11:50:51.510552 #15272]  INFO -- : Initialized Item: #<Item name: Starving Hearts (Triangular Trade Trilogy, #1), price: £13.99>
+I, [2024-11-20T11:50:51.511970 #15272]  INFO -- : Initialized Item: #<Item name: Shakespeare's Sonnets, price: £20.66>
+I, [2024-11-20T11:50:51.513320 #15272]  INFO -- : Initialized Item: #<Item name: Set Me Free, price: £17.46>
+I, [2024-11-20T11:50:51.514624 #15272]  INFO -- : Initialized Item: #<Item name: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), price: £52.29>
+I, [2024-11-20T11:50:51.516029 #15272]  INFO -- : Initialized Item: #<Item name: Rip it Up and Start Again, price: £35.02>
+I, [2024-11-20T11:50:51.517394 #15272]  INFO -- : Initialized Item: #<Item name: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, price: £57.25>
+I, [2024-11-20T11:50:51.518789 #15272]  INFO -- : Initialized Item: #<Item name: Olio, price: £23.88>
+I, [2024-11-20T11:50:51.520015 #15272]  INFO -- : Initialized Item: #<Item name: Mesaerion: The Best Science Fiction Stories 1800-1849, price: £37.59>
+I, [2024-11-20T11:50:51.521127 #15272]  INFO -- : Initialized Item: #<Item name: Libertarianism for Beginners, price: £51.33>
+I, [2024-11-20T11:50:51.522301 #15272]  INFO -- : Initialized Item: #<Item name: It's Only the Himalayas, price: £45.17>
+I, [2024-11-20T11:50:51.522756 #15272]  INFO -- : Finished parsing. Found 20 items.
+I, [2024-11-20T11:51:18.027186 #10920]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T11:51:18.027656 #10920]  INFO -- : Parsing page: http://books.toscrape.com/
+I, [2024-11-20T11:51:18.765599 #10920]  INFO -- : Initialized Item: #<Item name: A Light in the Attic, price: £51.77>
+I, [2024-11-20T11:51:18.767163 #10920]  INFO -- : Initialized Item: #<Item name: Tipping the Velvet, price: £53.74>
+I, [2024-11-20T11:51:18.768765 #10920]  INFO -- : Initialized Item: #<Item name: Soumission, price: £50.10>
+I, [2024-11-20T11:51:18.770228 #10920]  INFO -- : Initialized Item: #<Item name: Sharp Objects, price: £47.82>
+I, [2024-11-20T11:51:18.771665 #10920]  INFO -- : Initialized Item: #<Item name: Sapiens: A Brief History of Humankind, price: £54.23>
+I, [2024-11-20T11:51:18.773124 #10920]  INFO -- : Initialized Item: #<Item name: The Requiem Red, price: £22.65>
+I, [2024-11-20T11:51:18.774477 #10920]  INFO -- : Initialized Item: #<Item name: The Dirty Little Secrets of Getting Your Dream Job, price: £33.34>
+I, [2024-11-20T11:51:18.775848 #10920]  INFO -- : Initialized Item: #<Item name: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, price: £17.93>
+I, [2024-11-20T11:51:18.777446 #10920]  INFO -- : Initialized Item: #<Item name: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, price: £22.60>
+I, [2024-11-20T11:51:18.778784 #10920]  INFO -- : Initialized Item: #<Item name: The Black Maria, price: £52.15>
+I, [2024-11-20T11:51:18.780086 #10920]  INFO -- : Initialized Item: #<Item name: Starving Hearts (Triangular Trade Trilogy, #1), price: £13.99>
+I, [2024-11-20T11:51:18.781476 #10920]  INFO -- : Initialized Item: #<Item name: Shakespeare's Sonnets, price: £20.66>
+I, [2024-11-20T11:51:18.782743 #10920]  INFO -- : Initialized Item: #<Item name: Set Me Free, price: £17.46>
+I, [2024-11-20T11:51:18.783897 #10920]  INFO -- : Initialized Item: #<Item name: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), price: £52.29>
+I, [2024-11-20T11:51:18.784988 #10920]  INFO -- : Initialized Item: #<Item name: Rip it Up and Start Again, price: £35.02>
+I, [2024-11-20T11:51:18.786104 #10920]  INFO -- : Initialized Item: #<Item name: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, price: £57.25>
+I, [2024-11-20T11:51:18.787328 #10920]  INFO -- : Initialized Item: #<Item name: Olio, price: £23.88>
+I, [2024-11-20T11:51:18.788466 #10920]  INFO -- : Initialized Item: #<Item name: Mesaerion: The Best Science Fiction Stories 1800-1849, price: £37.59>
+I, [2024-11-20T11:51:18.789590 #10920]  INFO -- : Initialized Item: #<Item name: Libertarianism for Beginners, price: £51.33>
+I, [2024-11-20T11:51:18.790647 #10920]  INFO -- : Initialized Item: #<Item name: It's Only the Himalayas, price: £45.17>
+I, [2024-11-20T11:51:18.791135 #10920]  INFO -- : Finished parsing. Found 20 items.
+I, [2024-11-20T11:51:53.961113 #16128]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T11:51:53.961947 #16128]  INFO -- : Parsing page: http://books.toscrape.com/
+I, [2024-11-20T11:51:54.561100 #16128]  INFO -- : Initialized Item: #<Item name: A Light in the Attic, price: £51.77>
+I, [2024-11-20T11:51:54.562279 #16128]  INFO -- : Initialized Item: #<Item name: Tipping the Velvet, price: £53.74>
+I, [2024-11-20T11:51:54.563361 #16128]  INFO -- : Initialized Item: #<Item name: Soumission, price: £50.10>
+I, [2024-11-20T11:51:54.564435 #16128]  INFO -- : Initialized Item: #<Item name: Sharp Objects, price: £47.82>
+I, [2024-11-20T11:51:54.565472 #16128]  INFO -- : Initialized Item: #<Item name: Sapiens: A Brief History of Humankind, price: £54.23>
+I, [2024-11-20T11:51:54.566541 #16128]  INFO -- : Initialized Item: #<Item name: The Requiem Red, price: £22.65>
+I, [2024-11-20T11:51:54.567516 #16128]  INFO -- : Initialized Item: #<Item name: The Dirty Little Secrets of Getting Your Dream Job, price: £33.34>
+I, [2024-11-20T11:51:54.568520 #16128]  INFO -- : Initialized Item: #<Item name: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, price: £17.93>
+I, [2024-11-20T11:51:54.569528 #16128]  INFO -- : Initialized Item: #<Item name: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, price: £22.60>
+I, [2024-11-20T11:51:54.570537 #16128]  INFO -- : Initialized Item: #<Item name: The Black Maria, price: £52.15>
+I, [2024-11-20T11:51:54.571477 #16128]  INFO -- : Initialized Item: #<Item name: Starving Hearts (Triangular Trade Trilogy, #1), price: £13.99>
+I, [2024-11-20T11:51:54.572526 #16128]  INFO -- : Initialized Item: #<Item name: Shakespeare's Sonnets, price: £20.66>
+I, [2024-11-20T11:51:54.573509 #16128]  INFO -- : Initialized Item: #<Item name: Set Me Free, price: £17.46>
+I, [2024-11-20T11:51:54.574571 #16128]  INFO -- : Initialized Item: #<Item name: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), price: £52.29>
+I, [2024-11-20T11:51:54.575520 #16128]  INFO -- : Initialized Item: #<Item name: Rip it Up and Start Again, price: £35.02>
+I, [2024-11-20T11:51:54.576480 #16128]  INFO -- : Initialized Item: #<Item name: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, price: £57.25>
+I, [2024-11-20T11:51:54.577667 #16128]  INFO -- : Initialized Item: #<Item name: Olio, price: £23.88>
+I, [2024-11-20T11:51:54.578924 #16128]  INFO -- : Initialized Item: #<Item name: Mesaerion: The Best Science Fiction Stories 1800-1849, price: £37.59>
+I, [2024-11-20T11:51:54.579888 #16128]  INFO -- : Initialized Item: #<Item name: Libertarianism for Beginners, price: £51.33>
+I, [2024-11-20T11:51:54.580735 #16128]  INFO -- : Initialized Item: #<Item name: It's Only the Himalayas, price: £45.17>
+I, [2024-11-20T11:51:54.581163 #16128]  INFO -- : Finished parsing. Found 20 items.
+I, [2024-11-20T11:55:07.168948 #4376]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T11:55:07.171964 #4376]  INFO -- : Parsing page: http://books.toscrape.com/
+I, [2024-11-20T11:55:07.767275 #4376]  INFO -- : Initialized Item: #<Item name: A Light in the Attic, price: £51.77>
+I, [2024-11-20T11:55:07.768786 #4376]  INFO -- : Initialized Item: #<Item name: Tipping the Velvet, price: £53.74>
+I, [2024-11-20T11:55:07.770269 #4376]  INFO -- : Initialized Item: #<Item name: Soumission, price: £50.10>
+I, [2024-11-20T11:55:07.771609 #4376]  INFO -- : Initialized Item: #<Item name: Sharp Objects, price: £47.82>
+I, [2024-11-20T11:55:07.773175 #4376]  INFO -- : Initialized Item: #<Item name: Sapiens: A Brief History of Humankind, price: £54.23>
+I, [2024-11-20T11:55:07.775066 #4376]  INFO -- : Initialized Item: #<Item name: The Requiem Red, price: £22.65>
+I, [2024-11-20T11:55:07.776433 #4376]  INFO -- : Initialized Item: #<Item name: The Dirty Little Secrets of Getting Your Dream Job, price: £33.34>
+I, [2024-11-20T11:55:07.777964 #4376]  INFO -- : Initialized Item: #<Item name: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, price: £17.93>
+I, [2024-11-20T11:55:07.779490 #4376]  INFO -- : Initialized Item: #<Item name: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, price: £22.60>
+I, [2024-11-20T11:55:07.780789 #4376]  INFO -- : Initialized Item: #<Item name: The Black Maria, price: £52.15>
+I, [2024-11-20T11:55:07.781875 #4376]  INFO -- : Initialized Item: #<Item name: Starving Hearts (Triangular Trade Trilogy, #1), price: £13.99>
+I, [2024-11-20T11:55:07.782763 #4376]  INFO -- : Initialized Item: #<Item name: Shakespeare's Sonnets, price: £20.66>
+I, [2024-11-20T11:55:07.783705 #4376]  INFO -- : Initialized Item: #<Item name: Set Me Free, price: £17.46>
+I, [2024-11-20T11:55:07.784987 #4376]  INFO -- : Initialized Item: #<Item name: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), price: £52.29>
+I, [2024-11-20T11:55:07.785837 #4376]  INFO -- : Initialized Item: #<Item name: Rip it Up and Start Again, price: £35.02>
+I, [2024-11-20T11:55:07.786582 #4376]  INFO -- : Initialized Item: #<Item name: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, price: £57.25>
+I, [2024-11-20T11:55:07.787511 #4376]  INFO -- : Initialized Item: #<Item name: Olio, price: £23.88>
+I, [2024-11-20T11:55:07.788263 #4376]  INFO -- : Initialized Item: #<Item name: Mesaerion: The Best Science Fiction Stories 1800-1849, price: £37.59>
+I, [2024-11-20T11:55:07.789119 #4376]  INFO -- : Initialized Item: #<Item name: Libertarianism for Beginners, price: £51.33>
+I, [2024-11-20T11:55:07.790054 #4376]  INFO -- : Initialized Item: #<Item name: It's Only the Himalayas, price: £45.17>
+I, [2024-11-20T11:55:07.790451 #4376]  INFO -- : Finished parsing. Found 20 items.
+I, [2024-11-20T11:56:51.501344 #3616]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T11:56:51.501822 #3616]  INFO -- : Parsing page: http://books.toscrape.com/
+I, [2024-11-20T11:56:52.161323 #3616]  INFO -- : Initialized Item: #<Item name: A Light in the Attic, price: £51.77>
+I, [2024-11-20T11:56:52.163526 #3616]  INFO -- : Initialized Item: #<Item name: Tipping the Velvet, price: £53.74>
+I, [2024-11-20T11:56:52.164961 #3616]  INFO -- : Initialized Item: #<Item name: Soumission, price: £50.10>
+I, [2024-11-20T11:56:52.166392 #3616]  INFO -- : Initialized Item: #<Item name: Sharp Objects, price: £47.82>
+I, [2024-11-20T11:56:52.167857 #3616]  INFO -- : Initialized Item: #<Item name: Sapiens: A Brief History of Humankind, price: £54.23>
+I, [2024-11-20T11:56:52.169199 #3616]  INFO -- : Initialized Item: #<Item name: The Requiem Red, price: £22.65>
+I, [2024-11-20T11:56:52.170455 #3616]  INFO -- : Initialized Item: #<Item name: The Dirty Little Secrets of Getting Your Dream Job, price: £33.34>
+I, [2024-11-20T11:56:52.171699 #3616]  INFO -- : Initialized Item: #<Item name: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, price: £17.93>
+I, [2024-11-20T11:56:52.173104 #3616]  INFO -- : Initialized Item: #<Item name: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, price: £22.60>
+I, [2024-11-20T11:56:52.174290 #3616]  INFO -- : Initialized Item: #<Item name: The Black Maria, price: £52.15>
+I, [2024-11-20T11:56:52.175463 #3616]  INFO -- : Initialized Item: #<Item name: Starving Hearts (Triangular Trade Trilogy, #1), price: £13.99>
+I, [2024-11-20T11:56:52.176582 #3616]  INFO -- : Initialized Item: #<Item name: Shakespeare's Sonnets, price: £20.66>
+I, [2024-11-20T11:56:52.177831 #3616]  INFO -- : Initialized Item: #<Item name: Set Me Free, price: £17.46>
+I, [2024-11-20T11:56:52.178954 #3616]  INFO -- : Initialized Item: #<Item name: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), price: £52.29>
+I, [2024-11-20T11:56:52.180139 #3616]  INFO -- : Initialized Item: #<Item name: Rip it Up and Start Again, price: £35.02>
+I, [2024-11-20T11:56:52.181272 #3616]  INFO -- : Initialized Item: #<Item name: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, price: £57.25>
+I, [2024-11-20T11:56:52.182451 #3616]  INFO -- : Initialized Item: #<Item name: Olio, price: £23.88>
+I, [2024-11-20T11:56:52.183575 #3616]  INFO -- : Initialized Item: #<Item name: Mesaerion: The Best Science Fiction Stories 1800-1849, price: £37.59>
+I, [2024-11-20T11:56:52.184586 #3616]  INFO -- : Initialized Item: #<Item name: Libertarianism for Beginners, price: £51.33>
+I, [2024-11-20T11:56:52.185743 #3616]  INFO -- : Initialized Item: #<Item name: It's Only the Himalayas, price: £45.17>
+I, [2024-11-20T11:56:52.186206 #3616]  INFO -- : Finished parsing. Found 20 items.
+I, [2024-11-20T12:04:38.525931 #5912]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T12:05:06.408415 #10348]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T12:07:08.163567 #11720]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T12:09:16.509405 #8400]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T12:13:12.963825 #3608]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T12:13:33.932066 #7268]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T12:13:33.933510 #7268]  INFO -- : Parsing page: http://books.toscrape.com/
+I, [2024-11-20T12:13:34.658360 #7268]  INFO -- : Initialized Item: #<Item name: A Light in the Attic, price: £51.77>
+I, [2024-11-20T12:13:34.659781 #7268]  INFO -- : Initialized Item: #<Item name: Tipping the Velvet, price: £53.74>
+I, [2024-11-20T12:13:34.661041 #7268]  INFO -- : Initialized Item: #<Item name: Soumission, price: £50.10>
+I, [2024-11-20T12:13:34.662950 #7268]  INFO -- : Initialized Item: #<Item name: Sharp Objects, price: £47.82>
+I, [2024-11-20T12:13:34.664441 #7268]  INFO -- : Initialized Item: #<Item name: Sapiens: A Brief History of Humankind, price: £54.23>
+I, [2024-11-20T12:13:34.665707 #7268]  INFO -- : Initialized Item: #<Item name: The Requiem Red, price: £22.65>
+I, [2024-11-20T12:13:34.666913 #7268]  INFO -- : Initialized Item: #<Item name: The Dirty Little Secrets of Getting Your Dream Job, price: £33.34>
+I, [2024-11-20T12:13:34.668003 #7268]  INFO -- : Initialized Item: #<Item name: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, price: £17.93>
+I, [2024-11-20T12:13:34.669170 #7268]  INFO -- : Initialized Item: #<Item name: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, price: £22.60>
+I, [2024-11-20T12:13:34.670206 #7268]  INFO -- : Initialized Item: #<Item name: The Black Maria, price: £52.15>
+I, [2024-11-20T12:13:34.671254 #7268]  INFO -- : Initialized Item: #<Item name: Starving Hearts (Triangular Trade Trilogy, #1), price: £13.99>
+I, [2024-11-20T12:13:34.672337 #7268]  INFO -- : Initialized Item: #<Item name: Shakespeare's Sonnets, price: £20.66>
+I, [2024-11-20T12:13:34.673519 #7268]  INFO -- : Initialized Item: #<Item name: Set Me Free, price: £17.46>
+I, [2024-11-20T12:13:34.674610 #7268]  INFO -- : Initialized Item: #<Item name: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), price: £52.29>
+I, [2024-11-20T12:13:34.675558 #7268]  INFO -- : Initialized Item: #<Item name: Rip it Up and Start Again, price: £35.02>
+I, [2024-11-20T12:13:34.676588 #7268]  INFO -- : Initialized Item: #<Item name: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, price: £57.25>
+I, [2024-11-20T12:13:34.677572 #7268]  INFO -- : Initialized Item: #<Item name: Olio, price: £23.88>
+I, [2024-11-20T12:13:34.678511 #7268]  INFO -- : Initialized Item: #<Item name: Mesaerion: The Best Science Fiction Stories 1800-1849, price: £37.59>
+I, [2024-11-20T12:13:34.679472 #7268]  INFO -- : Initialized Item: #<Item name: Libertarianism for Beginners, price: £51.33>
+I, [2024-11-20T12:13:34.680784 #7268]  INFO -- : Initialized Item: #<Item name: It's Only the Himalayas, price: £45.17>
+I, [2024-11-20T12:13:34.681246 #7268]  INFO -- : Finished parsing. Found 20 items.
+I, [2024-11-20T12:18:50.756684 #9344]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T12:18:50.760292 #9344]  INFO -- : Parsing page: http://books.toscrape.com/
+I, [2024-11-20T12:18:51.433909 #9344]  INFO -- : Initialized Item: #<Item name: A Light in the Attic, price: £51.77>
+I, [2024-11-20T12:18:51.434965 #9344]  INFO -- : Initialized Item: #<Item name: Tipping the Velvet, price: £53.74>
+I, [2024-11-20T12:18:51.435911 #9344]  INFO -- : Initialized Item: #<Item name: Soumission, price: £50.10>
+I, [2024-11-20T12:18:51.437695 #9344]  INFO -- : Initialized Item: #<Item name: Sharp Objects, price: £47.82>
+I, [2024-11-20T12:18:51.438647 #9344]  INFO -- : Initialized Item: #<Item name: Sapiens: A Brief History of Humankind, price: £54.23>
+I, [2024-11-20T12:18:51.439623 #9344]  INFO -- : Initialized Item: #<Item name: The Requiem Red, price: £22.65>
+I, [2024-11-20T12:18:51.440575 #9344]  INFO -- : Initialized Item: #<Item name: The Dirty Little Secrets of Getting Your Dream Job, price: £33.34>
+I, [2024-11-20T12:18:51.441731 #9344]  INFO -- : Initialized Item: #<Item name: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, price: £17.93>
+I, [2024-11-20T12:18:51.442625 #9344]  INFO -- : Initialized Item: #<Item name: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, price: £22.60>
+I, [2024-11-20T12:18:51.443620 #9344]  INFO -- : Initialized Item: #<Item name: The Black Maria, price: £52.15>
+I, [2024-11-20T12:18:51.444485 #9344]  INFO -- : Initialized Item: #<Item name: Starving Hearts (Triangular Trade Trilogy, #1), price: £13.99>
+I, [2024-11-20T12:18:51.445379 #9344]  INFO -- : Initialized Item: #<Item name: Shakespeare's Sonnets, price: £20.66>
+I, [2024-11-20T12:18:51.446177 #9344]  INFO -- : Initialized Item: #<Item name: Set Me Free, price: £17.46>
+I, [2024-11-20T12:18:51.447012 #9344]  INFO -- : Initialized Item: #<Item name: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), price: £52.29>
+I, [2024-11-20T12:18:51.447770 #9344]  INFO -- : Initialized Item: #<Item name: Rip it Up and Start Again, price: £35.02>
+I, [2024-11-20T12:18:51.448595 #9344]  INFO -- : Initialized Item: #<Item name: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, price: £57.25>
+I, [2024-11-20T12:18:51.449353 #9344]  INFO -- : Initialized Item: #<Item name: Olio, price: £23.88>
+I, [2024-11-20T12:18:51.450079 #9344]  INFO -- : Initialized Item: #<Item name: Mesaerion: The Best Science Fiction Stories 1800-1849, price: £37.59>
+I, [2024-11-20T12:18:51.450776 #9344]  INFO -- : Initialized Item: #<Item name: Libertarianism for Beginners, price: £51.33>
+I, [2024-11-20T12:18:51.451452 #9344]  INFO -- : Initialized Item: #<Item name: It's Only the Himalayas, price: £45.17>
+I, [2024-11-20T12:18:51.451778 #9344]  INFO -- : Finished parsing. Found 20 items.
+I, [2024-11-20T12:20:56.863503 #16272]  INFO -- : Loaded configuration from config.yml
+I, [2024-11-20T12:20:56.867307 #16272]  INFO -- : Parsing page: http://books.toscrape.com/
+I, [2024-11-20T12:20:57.467162 #16272]  INFO -- : Initialized Item: #<Item name: A Light in the Attic, price: £51.77>
+I, [2024-11-20T12:20:57.468065 #16272]  INFO -- : Initialized Item: #<Item name: Tipping the Velvet, price: £53.74>
+I, [2024-11-20T12:20:57.468814 #16272]  INFO -- : Initialized Item: #<Item name: Soumission, price: £50.10>
+I, [2024-11-20T12:20:57.469665 #16272]  INFO -- : Initialized Item: #<Item name: Sharp Objects, price: £47.82>
+I, [2024-11-20T12:20:57.470443 #16272]  INFO -- : Initialized Item: #<Item name: Sapiens: A Brief History of Humankind, price: £54.23>
+I, [2024-11-20T12:20:57.471210 #16272]  INFO -- : Initialized Item: #<Item name: The Requiem Red, price: £22.65>
+I, [2024-11-20T12:20:57.471982 #16272]  INFO -- : Initialized Item: #<Item name: The Dirty Little Secrets of Getting Your Dream Job, price: £33.34>
+I, [2024-11-20T12:20:57.472805 #16272]  INFO -- : Initialized Item: #<Item name: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, price: £17.93>
+I, [2024-11-20T12:20:57.473627 #16272]  INFO -- : Initialized Item: #<Item name: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, price: £22.60>
+I, [2024-11-20T12:20:57.474382 #16272]  INFO -- : Initialized Item: #<Item name: The Black Maria, price: £52.15>
+I, [2024-11-20T12:20:57.475172 #16272]  INFO -- : Initialized Item: #<Item name: Starving Hearts (Triangular Trade Trilogy, #1), price: £13.99>
+I, [2024-11-20T12:20:57.475969 #16272]  INFO -- : Initialized Item: #<Item name: Shakespeare's Sonnets, price: £20.66>
+I, [2024-11-20T12:20:57.476768 #16272]  INFO -- : Initialized Item: #<Item name: Set Me Free, price: £17.46>
+I, [2024-11-20T12:20:57.477616 #16272]  INFO -- : Initialized Item: #<Item name: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), price: £52.29>
+I, [2024-11-20T12:20:57.478325 #16272]  INFO -- : Initialized Item: #<Item name: Rip it Up and Start Again, price: £35.02>
+I, [2024-11-20T12:20:57.478976 #16272]  INFO -- : Initialized Item: #<Item name: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, price: £57.25>
+I, [2024-11-20T12:20:57.479806 #16272]  INFO -- : Initialized Item: #<Item name: Olio, price: £23.88>
+I, [2024-11-20T12:20:57.480592 #16272]  INFO -- : Initialized Item: #<Item name: Mesaerion: The Best Science Fiction Stories 1800-1849, price: £37.59>
+I, [2024-11-20T12:20:57.481348 #16272]  INFO -- : Initialized Item: #<Item name: Libertarianism for Beginners, price: £51.33>
+I, [2024-11-20T12:20:57.482183 #16272]  INFO -- : Initialized Item: #<Item name: It's Only the Himalayas, price: £45.17>
+I, [2024-11-20T12:20:57.482534 #16272]  INFO -- : Finished parsing. Found 20 items.

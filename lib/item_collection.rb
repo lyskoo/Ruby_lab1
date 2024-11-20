@@ -80,12 +80,10 @@ module MyApplicationLysko
       end
     end
 
-    def save_to_yml(directory)
-      Dir.mkdir(directory) unless Dir.exist?(directory)
-      @items.each_with_index do |item, index|
-        File.write("#{directory}/item_#{index + 1}.yml", item.to_h.to_yaml)
-      end
+    def save_to_yml(filename)
+      File.write(filename, @items.map(&:to_h).to_yaml)
     end
+    
 
     def generate_test_items(count)
       count.times { add_item(Item.generate_fake) }

@@ -8,3 +8,5 @@ gem 'httparty'
 gem 'rubocop', require: false
 gem 'faker'
 gem 'mechanize'
+gem 'mongo'
+
