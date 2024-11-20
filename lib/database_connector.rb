@@ -1,7 +1,11 @@
+# frozen_string_literal: true
+
 require 'sqlite3'
 
-module MyApplicationLysko
+module MyApplicationLyskoLevitskii
+  # Клас для створення зв'язку з базою даних
   class DatabaseConnector
+    # автоматичний гетер
     attr_reader :db
 
     def initialize(database_path)
@@ -9,29 +13,29 @@ module MyApplicationLysko
       create_table
     end
 
-    # Метод створення таблиці, якщо її ще немає
     def create_table
       @db.execute <<-SQL
         CREATE TABLE IF NOT EXISTS items (
           id INTEGER PRIMARY KEY,
           name TEXT,
           price REAL,
-          description TEXT
+          description TEXT,
+          rating TEXT,
+          details_link TEXT
         );
       SQL
     end
 
-    # Метод для збереження запису
     def save_item(item)
       @db.execute(
-        "INSERT INTO items (name, price, description) VALUES (?, ?, ?)",
+        'INSERT INTO items (name, price, description) VALUES (?, ?, ?)',
         [item[:name], item[:price], item[:description]]
       )
     end
 
-    # Метод закриття підключення
+    # & перевіряє чи об'єкт nil,
     def close
-      @db.close if @db
+      @db&.close
     end
   end
 end

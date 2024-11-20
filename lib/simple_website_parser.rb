@@ -5,36 +5,33 @@ require 'logger'
 require 'open-uri'
 require 'fileutils'
 require 'timeout'
+require_relative 'app_config_loader'
+require_relative 'logger_manager'
+require_relative 'item'
 
-
-module MyApplicationLysko
-
+module MyApplicationLyskoLevitskii
+  # Клас для простенького парсингу сторінки)))
   class SimpleWebsiteParser
-    def initialize(config_file = 'config.yml')
+    def initialize
       @config = AppConfigLoader.load_web_parser_config
-      @@logger = LoggerManager.setup
-      @@logger.info("Loaded configuration from #{config_file}")
+      @logger = MyApplicationLyskoLevitskii::LoggerManager.setup
     end
-  
+
     def parse_page
       url = @config['base_url']
-      @@logger.info("Parsing page: #{url}")
-      base_url = @config['base_url']
-      
+      @logger.info("Parsing page: #{url}")
       html = URI.open(url)
       doc = Nokogiri::HTML(html)
-  
       items = []
-  
       doc.css('article.product_pod').each do |product|
         begin
           name = product.css(@config['selectors']['name']).attr('title').value
           price = product.css(@config['selectors']['price']).text.strip
-          image_path = product.css(@config['selectors']['image_path']).attr('src').value
+          image_path = url + product.css(@config['selectors']['image_path']).attr('src').value
           rating = product.css(@config['selectors']['rating']).attr('class').value.split.last
           availability = product.css(@config['selectors']['availability']).text.strip
-          details_link = base_url + product.css(@config['selectors']['details_link']).attr('href').value
-          
+          details_link = url + product.css(@config['selectors']['details_link']).attr('href').value
+
           item = Item.new(
             name: name,
             price: price,
@@ -43,14 +40,13 @@ module MyApplicationLysko
             availability: availability,
             details_link: details_link
           )
-          
           items << item
-        rescue => e
-          @@logger.error("Failed to parse product: #{e.message}")
+        rescue StandardError => e
+          @logger.error("Failed to parse product: #{e.message}")
         end
       end
-      
-      @@logger.info("Finished parsing. Found #{items.size} items.")
+
+      @logger.info("Parsing is finished. Found #{items.size} items.")
       items
     end
   end

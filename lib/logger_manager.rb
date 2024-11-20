@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require 'logger'
 
-module MyApplicationLysko
-  
+module MyApplicationLyskoLevitskii
+  # Клас для логування
   class LoggerManager
     def self.setup
       config = AppConfigLoader.load_logging_config
@@ -11,5 +13,16 @@ module MyApplicationLysko
       logger.level = level
       logger
     end
+    # def self.setup
+    #   # Завантажуємо конфігурації для логера
+    #   config = AppConfigLoader.load_logging_config
+    #   # Шлях де будуть зберігатися логи
+    #   directory = config['logging']['directory']
+    #   # Встановлюється рівень логування
+    #   level = eval("Logger::#{config['logging']['level']}")
+    #   logger = Logger.new(File.join(directory, config['logging']['files']['application_log']))
+    #   logger.level = level
+    #   logger
+    # end
   end
 end

@@ -1,33 +1,24 @@
-BASE_DIR = File.expand_path('../../', __FILE__)
+# frozen_string_literal: true
 
 require_relative 'app_config_loader'
-require_relative 'logger_manager'
-require_relative 'item'
 require_relative 'simple_website_parser'
-require 'nokogiri'
-require_relative 'database_connector'
 require_relative 'item_collection'
 require_relative 'configurator'
 
-
 begin
-  config = MyApplicationLysko::AppConfigLoader.load_config()
+  puts 'Програму розпочато'
+  parser = MyApplicationLyskoLevitskii::SimpleWebsiteParser.new
+  collection = MyApplicationLyskoLevitskii::ItemCollection.new
 
-  parser = MyApplicationLysko::SimpleWebsiteParser.new
-  collection = MyApplicationLysko::ItemCollection.new
+  output_dir = File.join(File.dirname(__FILE__), '../output')
 
-  output_dir = File.join(BASE_DIR, 'output')
+  configurator = MyApplicationLyskoLevitskii::Configurator.new
+  configurator.configure
 
-  # Налаштування Configurator
-  configurator = MyApplicationLysko::Configurator.new
-  configurator.configure(run_save_to_sqlite: 1)
-
-  # Виконання задач за конфігурацією
   configurator.execute(parser: parser, collection: collection, output_dir: output_dir)
 
-  puts 'Парсинг завершено. Дані збережено.'
-
+  puts 'Програму закінчено'
 rescue StandardError => e
-  puts "Помилка: #{e.message}"
+  puts "Виникла помилка: #{e.message}"
   puts e.backtrace.join("\n")
 end

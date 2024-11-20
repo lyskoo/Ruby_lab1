@@ -1,19 +1,29 @@
-require_relative 'database_connector'
+# frozen_string_literal: true
 
-module MyApplicationLysko
+require_relative 'database_connector'
+require_relative 'app_config_loader'
+
+module MyApplicationLyskoLevitskii
+  # Клас Configurator відповідає за конфігурацію, запуск парсингу та збереження даних у файли
   class Configurator
+    # автоматичні гетери і сетери
     attr_accessor :config
 
+    # Словник для виконання команд
+    # freeze - не може бути змінений після створення
     DEFAULT_CONFIG = {
       run_website_parser: 1,
-      run_save_to_csv: 0,
-      run_save_to_json: 0,
-      run_save_to_yaml: 0,
-      run_save_to_sqlite: 0,
+      run_save_to_csv: 1,
+      run_save_to_json: 1,
+      run_save_to_yaml: 1,
+      run_save_to_sqlite: 1,
+      run_save_images: 1
     }.freeze
 
     def initialize
+      # dup створює копію
       @config = DEFAULT_CONFIG.dup
+      @logger = MyApplicationLyskoLevitskii::LoggerManager.setup
     end
 
     def configure(overrides = {})
@@ -21,59 +31,41 @@ module MyApplicationLysko
         if @config.key?(key)
           @config[key] = value
         else
-          puts "Попередження: Ключ '#{key}' не є дійсним параметром конфігурації."
+          @logger.info("Invalid configuration key #{key}")
         end
       end
-    end
-
-    def self.available_methods
-      DEFAULT_CONFIG.keys
     end
 
     def execute(parser: nil, collection: nil, output_dir: nil)
       @config.each do |key, value|
+        # переходимо далі лише якщо значення 1
         next unless value == 1
 
         case key
         when :run_website_parser
-          puts 'Запускається розбір сайту...'
+          @logger.info('Website parsing started')
           raise 'Parser is not provided!' if parser.nil?
-
           items = parser.parse_page
+          # Кожну item додаємо в колекцію
           items.each { |item| collection.add_item(item) }
         when :run_save_to_csv
-          puts 'Дані зберігаються у форматі CSV...'
           collection.save_to_csv("#{output_dir}/items.csv")
+          @logger.info('Data is save into csv file')
         when :run_save_to_json
-          puts 'Дані зберігаються у форматі JSON...'
           collection.save_to_json("#{output_dir}/items.json")
+          @logger.info('Data is save into json file')
         when :run_save_to_yaml
-          puts 'Дані зберігаються у форматі YAML...'
           collection.save_to_yml("#{output_dir}/items.yml")
+          @logger.info('Data is save into yml file')
         when :run_save_to_sqlite
-          puts 'Дані зберігаються в базу SQLite...'
-          save_to_sqlite(collection, "#{output_dir}/items.sqlite")
+          collection.save_to_sqlite("#{output_dir}/items.sqlite")
+          @logger.info('Data is save into sqlite file')
+        when :run_save_images
+          collection.save_images("#{output_dir}/media")
+          @logger.info("Images are saved in #{output_dir}/media")
         else
-          puts "Невідома дія для ключа: #{key}"
+          @logger.info("Invalid action #{key}")
         end
-      end
-    end
-
-    private
-
-    def save_to_sqlite(collection, database_path)
-      connector = MyApplicationLysko::DatabaseConnector.new(database_path)
-      begin
-        collection.items.each do |item|
-          connector.save_item(
-            name: item.name,          # Використання геттерів
-            price: item.price,        # Використання геттерів
-            description: item.description # Використання геттерів
-          )
-        end
-        puts 'Дані успішно збережено в базу даних.'
-      ensure
-        connector.close
       end
     end
   end
